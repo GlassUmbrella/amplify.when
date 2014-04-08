@@ -7,9 +7,9 @@ An extension for AmplifyJS that uses When.js promises.
 
 `amplify.request` returns a When.js promise:
 
-```
+```javascript
 amplify.request("my-request", {
-    data: 1
+    data: myData
 })
 .then(function success(response) {
     
